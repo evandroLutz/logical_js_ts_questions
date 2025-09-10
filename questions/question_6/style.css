@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background: #f0f0f0;
+    font-family: "GFS Neohellenic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#track {
+    position: relative;
+    width: 800px;
+    height: 490px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: url(./assets/acropolis.jpg);
+    background-size: cover;
+}
+
+.runner {
+    position: absolute;
+    bottom: 10px;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+#achilles {
+    left: 0;
+}
+
+#tortoise {
+    left: 200px;
+}
+
+p {
+    max-width: 600px;
+    text-align: center;
+}
